@@ -416,5 +416,166 @@ p.work-with-us{text-align:center;margin-bottom:8em}
 ---------------------------------------------------------------
 Make your changes here
 ---------------------------------------------------------------*/
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
 
+h6 {
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+h7{
+	font-weight: 600;
+}
+p {
+	font-size: 0.9em;
+}
+
+.section {
+    padding-top: 50px;
+}
+
+@media (max-width:768px){
+.help-content, .work-background, .card-body, .about {font-size:0.7rem}
+
+h2 {font-size: 1.8rem}
+}
+
+@media (min-width:767px){
+.help-content, .work-background, .card-body, .who-are-we {font-size:0.8rem}
+}
+@media (min-width:978px){
+.help-content, .work-background, .card-body, .who-are-we {font-size:0.8rem}
+}
+@media (min-width:1200px){
+.help-content, .work-background, .card-body, .who-we-are {font-size:0.9rem}
+}
+/* Button */
+#pinkButton {
+	border: none;
+	border-radius: 25px;
+	background-color: #c873b7;
+	font-weight: 700;
+	color: #fff;
+	font-size: 0.8rem;
+	padding: 6px 25px;
+	
+}
+.wrapper {
+	text-align: center;
+}
+/* Help Section */
+
+.services-bg  {
+	background-image: url(assets/img/services-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 45px;
+}
+
+.help-content .card-body{
+	color: #fff;
+}
+.help-content .card-title{
+	color: #fff;
+}
+
+.help-content .card-link{
+    color: #fff;
+}
+
+.help-content img{
+	max-width: 50px;
+	margin-left: 8px;
+}
+.container-fluid {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+
+/* Work Section */
+
+#work-heading {
+	color: #c873b7;
+}
+.work-background {
+ background-color: #fff;
+}
+
+.card-body {
+ 	padding: 20px 15px;
+	color: #3d9cd4;
+}
+
+.card-title {
+	color: #3d9cd4;
+}
+
+.card-link {
+	color: #c873b7;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.image {
+	position: relative;
+}
+
+.coming-soon {
+    position: absolute;
+    bottom: 5px;
+    background-color: #3d9cd4;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+}
+
+/* Who are we? Section */
+
+.about {
+	position: relative;
+	padding-left: 100px;
+    padding-right: 100px;
+}
+.about-bg {
+	background-image: url(assets/img/about-bg.jpg);
+	background-size: cover;
+	background-position: center;
+    border-radius: 25px;
+    padding: 45px;
+    color: #fff;
+
+}
+.about-bg p:nth-child(odd){
+	font-weight: 200;
+	padding-top: 20px;
+}
+
+
+/* Footer */
+
+.footer-top{
+    margin-top: -100px;
+    position: relative;
+    padding-top: 120px;
+}
+
+.footer-nav li{
+    display: inline;
+    list-style: none;
+    color: #fff;
+	padding: 10px;
+	font-size: 0.8em;
+}
+
+.footer-nav .wrapper {
+	padding-top: 20px;
+	
+}
 /*# sourceMappingURL=dist/css-maps/style.css.map */
