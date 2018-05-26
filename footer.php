@@ -22,7 +22,15 @@
 		</div>
 		<div class="footer-nav">
 			<div class="container">
-				
+				<div class="wrapper">
+				  <ul>
+					<li>Privacy Policy</li>
+					<li>Cookie Policy</li>
+					<li>About Us</li>
+					<li>More Things</li>
+				  </ul>
+				</div>
+
 			</div>
 		</div>
 	</footer>
